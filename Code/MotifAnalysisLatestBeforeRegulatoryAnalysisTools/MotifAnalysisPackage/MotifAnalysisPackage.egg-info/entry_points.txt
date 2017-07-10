@@ -1,0 +1,3 @@
+[console_scripts]
+motifStatistics = motifStatistics.motifStatistics:main
+

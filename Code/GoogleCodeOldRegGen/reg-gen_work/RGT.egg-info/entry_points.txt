@@ -1,0 +1,3 @@
+[console_scripts]
+rgt-motifanalysis = rgt.motifanalysis.Main:main
+

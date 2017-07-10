@@ -1,0 +1,13 @@
+
+# HINT-0.1.1
+
+svn copy -m "HINT-0.1.1" https://reg-gen.googlecode.com/svn/trunk/ https://reg-gen.googlecode.com/svn/branches/HINT-0.1.1/
+svn switch https://reg-gen.googlecode.com/svn/branches/HINT-0.1.1/
+# Change
+svn switch https://reg-gen.googlecode.com/svn/trunk/
+svn copy -m "HINT-0.1.1" https://reg-gen.googlecode.com/svn/branches/HINT-0.1.1/ https://reg-gen.googlecode.com/svn/tags/HINT-0.1.1/
+svn commit -m "HINT-0.1.1"
+svn co https://reg-gen.googlecode.com/svn/trunk/ /home/egg/Desktop/HINT-0.1.1/
+find . -name .svn -exec rm -rf '{}' \;
+tar -zcvf HINT-0.1.1.tar.gz HINT-0.1.1/
+

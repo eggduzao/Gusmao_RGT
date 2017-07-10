@@ -1,0 +1,106 @@
+
+DIAGNOSE: Make a border check on the bias correction and on the region to apply the HMM
+
+
+Tao Zhang forrestzhang1982@gmail.com via rwth-aachen.de 
+May 10
+
+to eduardo.gusmao 
+On Saturday, May 7, 2016 at 12:30:06 AM UTC-5, Tao Zhang wrote:
+Hi Eduardo,
+   Thanks for your reply. We are working an Arabidopsis by using DU protocols. The HINT (without DNase-seq bias correction) is working fine. But when I use --estimate-bias-correction. 
+
+I get some error:
+
+[fai_load] build FASTA index.
+Traceback (most recent call last):
+  File "/home/forrest/app/bin/rgt-hint", line 9, in <module>
+    load_entry_point('RGT==1.1.1', 'console_scripts', 'rgt-hint')()
+  File "/usr/local/lib/python2.7/dist-packages/RGT-0.3.1-py2.7.egg/rgt/HINT/Main.py", line 390, in main
+    dnase_ext_both_directions, options.print_wig)
+  File "/usr/local/lib/python2.7/dist-packages/RGT-0.3.1-py2.7.egg/rgt/HINT/signalProcessing.py", line 184, in get_signal
+    bias_corrected_signal = self.bias_correction(clip_signal, bias_table, genome_file_name, ref, start, end)
+  File "/usr/local/lib/python2.7/dist-packages/RGT-0.3.1-py2.7.egg/rgt/HINT/signalProcessing.py", line 246, in bias_correction
+    for r in self.bam.fetch(chrName, p1_w, p2_w):
+  File "pysam/calignmentfile.pyx", line 881, in pysam.calignmentfile.AlignmentFile.fetch (pysam/calignmentfile.c:10856)
+  File "pysam/calignmentfile.pyx", line 809, in pysam.calignmentfile.AlignmentFile.parse_region (pysam/calignmentfile.c:10416)
+ValueError: start out of range (-25)
+
+There is some our data: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE34318 . FYI.
+
+Thanks again!!
+
+Tao
+
+On Tuesday, April 19, 2016 at 10:18:22 AM UTC-5, Eduardo Gade Gusmao wrote:
+Dear Tao Zhang,
+
+just a few note with regard to my previous answer:
+
+1. Obviously, the histone code is not the same for all organisms, therefore if you are using histones, it has to indicate open chromatin regions.
+2. If you need a more precise answer please tell me the exact protocols you are using to obtain DNase-seq and/or histone modification ChIP-seq data. It's also helpful to know which organism you are interested, since we are currently expanding our tool.
+
+Best,
+Eduardo
+
+Em terça-feira, 19 de abril de 2016 17:10:07 UTC+2, Eduardo Gade Gusmao escreveu:
+Dear Tao Zhang,
+
+as we shown in our previous work, the HMM is cell type-independent with regard to training. Such obervation can be extrapolated to other species as well.
+You should be able to use HINT (without DNase-seq bias correction) with the current implementation.
+However, if you want to use the bias-corrected version, you should setup your RGT data folder: http://www.regulatory-genomics.org/rgt/rgt-data-folder/
+
+Best,
+Eduardo
+
+Em quinta-feira, 31 de março de 2016 15:55:27 UTC+2, Tao Zhang escreveu:
+
+
+Hi All,
+
+    I found that all the example data and tutorial were coming from human. How to work on other species? I guess we need rebuild HMM matrix. 
+
+    Thanks a lot,
+
+Tao
+
+Eduardo Gade Gusmão <eduardo.gusmao@rwth-aachen.de>
+May 22
+
+to Tao 
+Hi Tao,
+
+I'm very sorry for my delayed response. I took a look and I believe there is a bug with regard to the chromosome borders (it was also reported by other users). While I work on that (might take a while), I would kindly ask you to execute HINT with the "--default-bias-correction" option. Since you are using the single-hit protocol it should be OK. I will let you know when I fix the bug and perform some tests.
+
+Best regards,
+Eduardo
+
+
+Tao Zhang forrestzhang1982@gmail.com via rwth-aachen.de 
+May 26
+
+to Eduardo 
+Hi Eduardo,
+
+	It still show error:
+
+	$rgt-hint --default-bias-correction --organism tair10 --output-location ./Output/ ./allmatrix.txt 
+
+Traceback (most recent call last): File "/home/forrest/app/bin/rgt-hint", line 9, in <module> load_entry_point('RGT==1.1.1', 'console_scripts', 'rgt-hint')() File "/usr/local/lib/python2.7/dist-packages/RGT-0.3.1-py2.7.egg/rgt/HINT/Main.py", line 390, in main dnase_ext_both_directions, options.print_wig) File "/usr/local/lib/python2.7/dist-packages/RGT-0.3.1-py2.7.egg/rgt/HINT/signalProcessing.py", line 184, in get_signal bias_corrected_signal = self.bias_correction(clip_signal, bias_table, genome_file_name, ref, start, end) File "/usr/local/lib/python2.7/dist-packages/RGT-0.3.1-py2.7.egg/rgt/HINT/signalProcessing.py", line 246, in bias_correction for r in self.bam.fetch(chrName, p1_w, p2_w): File "pysam/calignmentfile.pyx", line 881, in pysam.calignmentfile.AlignmentFile.fetch (pysam/calignmentfile.c:10856) File "pysam/calignmentfile.pyx", line 809, in pysam.calignmentfile.AlignmentFile.parse_region (pysam/calignmentfile.c:10416) ValueError: start out of range (-25)
+
+
+=======================
+
+This is my matrix file:
+
+name	type	file	data	group
+DNase	reads	./DHS/DHS_all.bam	DNASE	DHS_all
+HS2	regions	./DHS/merged_DHS_all.bed	HS	DHS_all
+
+
+
+	all the best,
+
+Tao
+
+

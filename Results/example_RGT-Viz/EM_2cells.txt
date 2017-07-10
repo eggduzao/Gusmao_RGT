@@ -1,0 +1,13 @@
+name	type	file	cell	factor
+CDP_PU1	regions	./data/PU1_CDP_500.bed	CDP	PU1
+PU1_CDP_WT	reads	./data/CDP_PU1.bw	CDP	PU.1
+H3K4me1_CDP	reads	./data/CDP_WT_H3K4me1.bw	CDP	H3K4me1
+H3K4me3_CDP_WT	reads	./data/CDP_WT_H3K4me3.bw	CDP	H3K4me3
+H3K27me3_CDP_WT	reads	./data/CDP_WT_H3K27me3.bw	CDP	H3K27me3
+
+cDC_PU1	regions	./data/PU1_cDC_500.bed	cDC	PU1
+PU1_cDC_WT	reads	./data/cDC_PU1.bw	cDC	PU.1
+H3K4me1_cDC	reads	./data/cDC_WT_H3K4me1.bw	cDC	H3K4me1
+H3K4me3_cDC_WT	reads	./data/cDC_WT_H3K4me3.bw	cDC	H3K4me3
+H3K27me3_cDC_WT	reads	./data/cDC_WT_H3K27me3.bw	cDC	H3K27me3
+

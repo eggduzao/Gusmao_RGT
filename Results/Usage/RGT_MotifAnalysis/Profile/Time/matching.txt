@@ -1,0 +1,287 @@
+         1930882 function calls (1922623 primitive calls) in 65.007 CPU seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   117162   61.899    0.001   61.899    0.001 {MOODS._cmodule._search}
+   117162    0.843    0.000   63.065    0.001 Match.py:17(match)
+        5    0.670    0.134    0.670    0.134 {posix.system}
+        1    0.440    0.440   64.916   64.916 Main.py:105(main_matching)
+      566    0.331    0.001    0.331    0.001 csamtools.pyx:434(fetch)
+   117162    0.196    0.000   62.095    0.001 __init__.py:69(search)
+   149563    0.109    0.000    0.109    0.000 GenomicRegion.py:22(__init__)
+        1    0.091    0.091   65.007   65.007 Main.py:48(main)
+    72468    0.090    0.000    0.145    0.000 matrix.py:64(__getitem__)
+   149563    0.053    0.000    0.067    0.000 GenomicRegionSet.py:44(add)
+   365108    0.050    0.000    0.050    0.000 {isinstance}
+   148975    0.035    0.000    0.035    0.000 {method 'write' of 'file' objects}
+   316194    0.033    0.000    0.033    0.000 {method 'append' of 'list' objects}
+   149785    0.026    0.000    0.026    0.000 {method 'join' of 'str' objects}
+      207    0.015    0.000    0.042    0.000 matrix.py:296(log_odds)
+      414    0.014    0.000    0.053    0.000 matrix.py:148(consensus)
+107018/107015    0.010    0.000    0.010    0.000 {len}
+      207    0.009    0.000    0.062    0.000 matrix.py:287(__init__)
+    12645    0.008    0.000    0.028    0.000 matrix.py:290(<genexpr>)
+      207    0.007    0.000    0.089    0.000 matrix.py:256(normalize)
+    15199    0.007    0.000    0.007    0.000 {range}
+   7222/1    0.006    0.000    0.015    0.015 copy.py:145(deepcopy)
+    12645    0.005    0.000    0.025    0.000 matrix.py:423(<genexpr>)
+      207    0.004    0.000    0.242    0.001 Motif.py:26(__init__)
+    10116    0.004    0.000    0.004    0.000 {math.log}
+      207    0.003    0.000    0.013    0.000 __init__.py:199(_read_pfm)
+     3016    0.003    0.000    0.031    0.000 {sum}
+        1    0.003    0.003    0.004    0.004 GenomicRegionSet.py:79(read_bed)
+      621    0.003    0.000    0.003    0.000 matrix.py:42(__init__)
+     2551    0.002    0.000    0.028    0.000 {max}
+        5    0.002    0.000    0.002    0.000 {posix.remove}
+    516/1    0.002    0.000    0.015    0.015 copy.py:253(_deepcopy_dict)
+        1    0.002    0.002    0.002    0.002 Motif.py:81(__init__)
+      207    0.002    0.000    0.006    0.000 __init__.py:218(__init__)
+      221    0.002    0.000    0.002    0.000 {open}
+      207    0.002    0.000    0.029    0.000 matrix.py:414(max)
+     3623    0.002    0.000    0.002    0.000 copy.py:267(_keep_alive)
+      207    0.002    0.000    0.002    0.000 {zip}
+      209    0.002    0.000    0.002    0.000 Util.py:373(__init__)
+      414    0.001    0.000    0.001    0.000 {built-in method fromkeys}
+     2323    0.001    0.000    0.001    0.000 {method 'split' of 'str' objects}
+    10872    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+      414    0.001    0.000    0.001    0.000 __init__.py:251(__set_mask)
+    516/1    0.001    0.000    0.015    0.015 copy.py:283(_deepcopy_inst)
+      207    0.001    0.000    0.015    0.000 __init__.py:28(parse)
+     2087    0.001    0.000    0.001    0.000 {hasattr}
+    11879    0.001    0.000    0.001    0.000 {id}
+      621    0.001    0.000    0.001    0.000 {sorted}
+      218    0.001    0.000    0.001    0.000 {method 'close' of 'file' objects}
+      566    0.001    0.000    0.332    0.001 {method 'fetch' of 'pysam.csamtools.Fastafile' objects}
+      207    0.001    0.000    0.001    0.000 __init__.py:294(__set_background)
+      207    0.001    0.000    0.001    0.000 Seq.py:687(complement)
+      828    0.000    0.000    0.001    0.000 Seq.py:79(__init__)
+     1250    0.000    0.000    0.000    0.000 GenomicRegion.py:86(__cmp__)
+      207    0.000    0.000    0.006    0.000 __init__.py:29(__init__)
+      207    0.000    0.000    0.002    0.000 __init__.py:278(__set_pseudocounts)
+      207    0.000    0.000    0.015    0.000 __init__.py:92(read)
+        1    0.000    0.000    0.017    0.017 GenomicRegionSet.py:1052(random_regions)
+      207    0.000    0.000    0.000    0.000 Seq.py:186(__getitem__)
+      207    0.000    0.000    0.014    0.000 __init__.py:147(read)
+      516    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+      207    0.000    0.000    0.002    0.000 Seq.py:738(reverse_complement)
+       51    0.000    0.000    0.001    0.000 GenomicRegionSet.py:1078(randoming)
+      416    0.000    0.000    0.000    0.000 posixpath.py:110(basename)
+      510    0.000    0.000    0.000    0.000 GenomicRegionSet.py:52(__iter__)
+       95    0.000    0.000    0.000    0.000 GenomicRegionSet.py:1188(any_chrom)
+        1    0.000    0.000    0.015    0.015 copy.py:226(_deepcopy_list)
+        3    0.000    0.000    0.001    0.000 ConfigParser.py:456(_read)
+      243    0.000    0.000    0.000    0.000 posixpath.py:60(join)
+     2589    0.000    0.000    0.000    0.000 copy.py:198(_deepcopy_atomic)
+        3    0.000    0.000    0.001    0.000 {method 'sort' of 'list' objects}
+      414    0.000    0.000    0.054    0.000 __init__.py:367(consensus)
+      417    0.000    0.000    0.000    0.000 GenomicRegionSet.py:32(__init__)
+     1063    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+      424    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       51    0.000    0.000    0.000    0.000 GenomicRegionSet.py:1099(weighted_choice)
+      207    0.000    0.000    0.000    0.000 __init__.py:238(_get_base_alphabet)
+        2    0.000    0.000    0.000    0.000 {posix.listdir}
+     1173    0.000    0.000    0.000    0.000 GenomicRegionSet.py:1100(<genexpr>)
+      701    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+      264    0.000    0.000    0.000    0.000 {built-in method match}
+        1    0.000    0.000    0.000    0.000 __init__.py:6(<module>)
+      516    0.000    0.000    0.000    0.000 {method 'iteritems' of 'dict' objects}
+      610    0.000    0.000    0.000    0.000 GenomicRegion.py:40(__len__)
+        1    0.000    0.000    0.000    0.000 matrix.py:7(<module>)
+      209    0.000    0.000    0.001    0.000 glob.py:18(iglob)
+      621    0.000    0.000    0.000    0.000 Seq.py:125(__str__)
+        1    0.000    0.000    0.000    0.000 GenomicRegionSet.py:1035(get_genome_data)
+      566    0.000    0.000    0.000    0.000 csamtools.pyx:392(_isOpen)
+      414    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+       15    0.000    0.000    0.000    0.000 collections.py:58(__init__)
+        2    0.000    0.000    0.000    0.000 fnmatch.py:45(filter)
+      207    0.000    0.000    0.000    0.000 __init__.py:338(__len__)
+      511    0.000    0.000    0.000    0.000 {iter}
+       50    0.000    0.000    0.000    0.000 {method 'readline' of 'file' objects}
+        1    0.000    0.000    0.000    0.000 csamtools.pyx:402(_open)
+      207    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+       51    0.000    0.000    0.000    0.000 {print}
+       66    0.000    0.000    0.000    0.000 collections.py:76(__setitem__)
+       51    0.000    0.000    0.000    0.000 random.py:173(randrange)
+       17    0.000    0.000    0.000    0.000 ConfigParser.py:582(get)
+        1    0.000    0.000    0.000    0.000 csamtools.pyx:424(__dealloc__)
+       51    0.000    0.000    0.000    0.000 GenomicRegion.py:44(__str__)
+      207    0.000    0.000    0.000    0.000 __init__.py:132(__init__)
+       51    0.000    0.000    0.000    0.000 random.py:272(choice)
+    32/31    0.000    0.000    0.000    0.000 abc.py:148(__subclasscheck__)
+      297    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 optparse.py:1007(add_option)
+       11    0.000    0.000    0.000    0.000 {filter}
+        9    0.000    0.000    0.000    0.000 optparse.py:609(_set_attrs)
+      275    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.001    0.000 Util.py:33(__init__)
+        1    0.000    0.000    0.000    0.000 GenomicRegionSet.py:151(write_bed)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:379(_parse)
+        2    0.000    0.000    0.001    0.000 glob.py:10(glob)
+       62    0.000    0.000    0.000    0.000 _weakrefset.py:68(__contains__)
+       51    0.000    0.000    0.000    0.000 random.py:237(randint)
+        9    0.000    0.000    0.000    0.000 {posix.stat}
+       17    0.000    0.000    0.000    0.000 ConfigParser.py:562(__getitem__)
+        1    0.000    0.000    0.000    0.000 gettext.py:421(find)
+       15    0.000    0.000    0.000    0.000 _abcoll.py:483(update)
+        3    0.000    0.000    0.000    0.000 gettext.py:130(_expand_lang)
+       51    0.000    0.000    0.000    0.000 random.py:355(uniform)
+       15    0.000    0.000    0.000    0.000 abc.py:128(__instancecheck__)
+        1    0.000    0.000   65.007   65.007 <string>:1(<module>)
+        4    0.000    0.000    0.000    0.000 posixpath.py:312(normpath)
+        1    0.000    0.000    0.000    0.000 GenomicRegionSet.py:1071(list_max)
+        9    0.000    0.000    0.000    0.000 optparse.py:560(__init__)
+        2    0.000    0.000    0.001    0.000 Util.py:79(__init__)
+      120    0.000    0.000    0.000    0.000 {setattr}
+        2    0.000    0.000    0.000    0.000 {numpy.core.multiarray.array}
+        1    0.000    0.000    0.004    0.004 ExperimentalMatrix.py:27(read)
+       33    0.000    0.000    0.000    0.000 {built-in method group}
+      3/2    0.000    0.000    0.000    0.000 sre_parse.py:140(getwidth)
+        1    0.000    0.000    0.000    0.000 Util.py:158(__init__)
+        2    0.000    0.000    0.001    0.000 glob.py:49(glob1)
+      153    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        5    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       12    0.000    0.000    0.000    0.000 _abcoll.py:368(items)
+        3    0.000    0.000    0.000    0.000 ConfigParser.py:224(__init__)
+       57    0.000    0.000    0.000    0.000 collections.py:97(__iter__)
+        9    0.000    0.000    0.000    0.000 optparse.py:635(_check_type)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:32(_compile)
+        8    0.000    0.000    0.000    0.000 genericpath.py:15(exists)
+        1    0.000    0.000    0.004    0.004 ExperimentalMatrix.py:112(load_objects)
+        1    0.000    0.000    0.000    0.000 optparse.py:1313(get_default_values)
+        6    0.000    0.000    0.000    0.000 glob.py:77(has_magic)
+        1    0.000    0.000    0.000    0.000 re.py:229(_compile)
+      207    0.000    0.000    0.000    0.000 glob.py:60(<lambda>)
+        1    0.000    0.000    0.000    0.000 csamtools.pyx:419(close)
+        5    0.000    0.000    0.000    0.000 posixpath.py:80(split)
+        4    0.000    0.000    0.000    0.000 re.py:206(escape)
+        5    0.000    0.000    0.000    0.000 optparse.py:1474(_process_long_opt)
+        3    0.000    0.000    0.001    0.000 ConfigParser.py:277(read)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:495(compile)
+       15    0.000    0.000    0.000    0.000 sre_parse.py:182(__next)
+        3    0.000    0.000    0.000    0.000 locale.py:334(normalize)
+       41    0.000    0.000    0.000    0.000 ConfigParser.py:365(optionxform)
+        9    0.000    0.000    0.000    0.000 optparse.py:588(_set_opt_strings)
+        1    0.000    0.000    0.000    0.000 optparse.py:1185(__init__)
+        6    0.000    0.000    0.000    0.000 {built-in method search}
+        7    0.000    0.000    0.000    0.000 _weakrefset.py:58(__iter__)
+        1    0.000    0.000    0.000    0.000 optparse.py:200(__init__)
+        1    0.000    0.000    0.000    0.000 Util.py:360(_process_args)
+        9    0.000    0.000    0.000    0.000 optparse.py:629(_check_action)
+        1    0.000    0.000    0.000    0.000 {map}
+       19    0.000    0.000    0.000    0.000 {getattr}
+        3    0.000    0.000    0.001    0.000 GenomicRegionSet.py:74(sort)
+        5    0.000    0.000    0.000    0.000 optparse.py:1669(_match_abbrev)
+        1    0.000    0.000    0.000    0.000 optparse.py:1362(parse_args)
+        1    0.000    0.000    0.000    0.000 fnmatch.py:81(translate)
+        1    0.000    0.000    0.000    0.000 gettext.py:542(dgettext)
+       17    0.000    0.000    0.000    0.000 ConfigParser.py:649(_interpolate)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:663(parse)
+        2    0.000    0.000    0.000    0.000 {posix.getcwd}
+        6    0.000    0.000    0.000    0.000 sre_parse.py:130(__getitem__)
+        9    0.000    0.000    0.000    0.000 optparse.py:579(_check_opt_strings)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:361(_compile_info)
+        2    0.000    0.000    0.000    0.000 optparse.py:1414(_process_args)
+        1    0.000    0.000    0.000    0.000 {method '__deepcopy__' of 'numpy.generic' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:18(Motif)
+        1    0.000    0.000    0.000    0.000 optparse.py:1242(_add_help_option)
+        9    0.000    0.000    0.000    0.000 optparse.py:832(isbasestring)
+        1    0.000    0.000    0.000    0.000 csamtools.pyx:387(__cinit__)
+        3    0.000    0.000    0.000    0.000 _abcoll.py:371(values)
+      6/4    0.000    0.000    0.000    0.000 {issubclass}
+       32    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       33    0.000    0.000    0.000    0.000 {method 'isspace' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 optparse.py:693(_check_const)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:77(add)
+        4    0.000    0.000    0.000    0.000 optparse.py:778(process)
+        2    0.000    0.000    0.000    0.000 UserDict.py:18(__getitem__)
+        1    0.000    0.000    0.000    0.000 matrix.py:341(PositionSpecificScoringMatrix)
+        9    0.000    0.000    0.000    0.000 optparse.py:678(_check_dest)
+        5    0.000    0.000    0.000    0.000 optparse.py:764(check_value)
+        4    0.000    0.000    0.000    0.000 posixpath.py:341(abspath)
+        5    0.000    0.000    0.000    0.000 optparse.py:1465(_match_long_opt)
+        4    0.000    0.000    0.000    0.000 optparse.py:790(take_action)
+        1    0.000    0.000    0.000    0.000 optparse.py:932(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:257(_escape)
+        9    0.000    0.000    0.000    0.000 optparse.py:980(_check_conflict)
+        9    0.000    0.000    0.000    0.000 optparse.py:708(_check_callback)
+        3    0.000    0.000    0.000    0.000 _abcoll.py:97(__subclasshook__)
+        3    0.000    0.000    0.000    0.000 posixpath.py:118(dirname)
+        1    0.000    0.000    0.000    0.000 optparse.py:365(__init__)
+        7    0.000    0.000    0.000    0.000 sre_parse.py:195(match)
+        1    0.000    0.000    0.000    0.000 optparse.py:1271(set_usage)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:20(__enter__)
+        1    0.000    0.000    0.000    0.000 optparse.py:837(__init__)
+        4    0.000    0.000    0.000    0.000 posixpath.py:51(isabs)
+        2    0.000    0.000    0.000    0.000 _weakrefset.py:36(__init__)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:26(__exit__)
+       17    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        9    0.000    0.000    0.000    0.000 optparse.py:699(_check_nargs)
+       10    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 sre_compile.py:480(_code)
+        1    0.000    0.000    0.000    0.000 gettext.py:476(translation)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:301(_parse_sub)
+        2    0.000    0.000    0.000    0.000 optparse.py:423(check_builtin)
+        1    0.000    0.000    0.000    0.000 UserDict.py:58(get)
+       17    0.000    0.000    0.000    0.000 ConfigParser.py:559(__init__)
+        1    0.000    0.000    0.000    0.000 matrix.py:40(GenericPositionMatrix)
+        4    0.000    0.000    0.000    0.000 optparse.py:771(convert_value)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:474(isstring)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:67(__init__)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:138(append)
+        1    0.000    0.000    0.000    0.000 GenomicRegionSet.py:40(get_chrom)
+        1    0.000    0.000    0.000    0.000 ExperimentalMatrix.py:19(__init__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:178(__init__)
+       13    0.000    0.000    0.000    0.000 sre_parse.py:201(get)
+        9    0.000    0.000    0.000    0.000 optparse.py:665(_check_choice)
+        1    0.000    0.000    0.000    0.000 optparse.py:1237(_create_option_list)
+        4    0.000    0.000    0.000    0.000 optparse.py:752(takes_value)
+        4    0.000    0.000    0.000    0.000 Util.py:103(get_chromosome_sizes)
+        1    0.000    0.000    0.000    0.000 {_sre.compile}
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:16(__init__)
+        4    0.000    0.000    0.000    0.000 {min}
+        1    0.000    0.000    0.000    0.000 __init__.py:122(Record)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:90(__init__)
+        9    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 genericpath.py:38(isdir)
+        1    0.000    0.000    0.000    0.000 optparse.py:1252(_populate_option_list)
+        1    0.000    0.000    0.000    0.000 gettext.py:580(gettext)
+        1    0.000    0.000    0.000    0.000 Util.py:217(get_fpr_list)
+        3    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 optparse.py:755(get_opt_string)
+        1    0.000    0.000    0.000    0.000 optparse.py:136(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {ord}
+        1    0.000    0.000    0.000    0.000 stat.py:24(S_IFMT)
+        1    0.000    0.000    0.000    0.000 optparse.py:1307(_get_all_options)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:52(_commit_removals)
+        1    0.000    0.000    0.000    0.000 optparse.py:399(_parse_num)
+        1    0.000    0.000    0.000    0.000 optparse.py:943(_create_option_mappings)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:354(_simple)
+        1    0.000    0.000    0.000    0.000 optparse.py:959(set_conflict_handler)
+        6    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 optparse.py:412(_parse_int)
+        1    0.000    0.000    0.000    0.000 stat.py:40(S_ISDIR)
+        1    0.000    0.000    0.000    0.000 Util.py:97(get_genome)
+        3    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 optparse.py:224(set_parser)
+        2    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+        1    0.000    0.000    0.000    0.000 re.py:188(compile)
+        1    0.000    0.000    0.000    0.000 csamtools.pyx:41(_my_encodeFilename)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:134(__setitem__)
+        1    0.000    0.000    0.000    0.000 optparse.py:1262(_init_parsing_state)
+        1    0.000    0.000    0.000    0.000 optparse.py:964(set_description)
+        1    0.000    0.000    0.000    0.000 Util.py:186(get_pwm_list)
+        1    0.000    0.000    0.000    0.000 optparse.py:1356(_get_args)
+        2    0.000    0.000    0.000    0.000 GenomicRegionSet.py:49(__len__)
+        1    0.000    0.000    0.000    0.000 matrix.py:254(FrequencyPositionMatrix)
+        2    0.000    0.000    0.000    0.000 posixpath.py:43(normcase)
+        1    0.000    0.000    0.000    0.000 UserDict.py:70(__contains__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:126(__len__)
+        1    0.000    0.000    0.000    0.000 matrix.py:285(PositionWeightMatrix)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 optparse.py:1401(check_values)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

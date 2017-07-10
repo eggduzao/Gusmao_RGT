@@ -1,0 +1,27 @@
+
+DIAGNOSE: Chromosome borders
+
+
+To whomever may concern
+
+I am attempting to run rgt-hint on my own data. Unfortunately I keep getting an error:
+
+Traceback (most recent call last):
+
+  File "/home/kl76w/app/bin/rgt-hint", line 9, in <module>
+
+    load_entry_point('RGT==1.1.1', 'console_scripts', 'rgt-hint')()
+
+  File "/home/kl76w/app/lib/python2.7/site-packages/RGT-1.1.1-py2.7.egg/rgt/HINT/Main.py", line 427, in main
+
+    if(posterior_list[curr_index] == fp_state_nb):
+
+IndexError: index 5260 is out of bounds for axis 0 with size 5260
+
+
+
+This error only occurs when I attempt to use the options --default-bias-correction or --estimate-bias-correction. I ran the same data without the option and the program ran successfully.
+
+
+
+I was wondering if there would be any way for me to correct this error. 

@@ -1,0 +1,9 @@
+<!-- <table border="0"> -->
+<!-- <tbody> -->
+<!-- <tr> -->
+<!-- <td><a title="Reg Gen Viz" href="http://www.regulatory-genomics.org/reg-gen-viz/"><img class="alignleft" title="rgt_logo" src="http://www.regulatory-genomics.org/wp-content/uploads/2014/07/rgt_logo.png" alt="" width="160" height="160" /></a> -->
+<!-- <h3><a title="Reg Gen Viz" href="http://www.regulatory-genomics.org/reg-gen-viz/">Reg Gen Viz</a></h3> -->
+<!-- Reg Gen Viz is a tool for plotting genomic profiles and statistical association of regulatory genomic data.</td> -->
+<!-- </tr> -->
+<!-- </tbody> -->
+<!-- </table> -->

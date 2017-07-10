@@ -1,0 +1,115 @@
+<script type="text/javascript" src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/fig/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/fig/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/fig/jquery.metadata.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+    { 
+        $("#hor-zebra").tablesorter(); 
+    } 
+); 
+</script>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html"><title>RGT Motif Enrichment Analysis</title>
+<style type="text/css">
+<!--
+@import url("/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/fig/style.css");
+-->
+</style></head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFF">
+<h3 style="background-color:white; border-top:5px solid black; border-bottom: 5px solid black;">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="8%"><img border="0" src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/fig/rgt_logo.gif" width="130" height="100"></td>
+    <td width="92%"><p align="left"><font color="black" size="6">Regulatory Genomics Toolbox - Motif Enrichment Analysis</font></td>
+  </tr>
+</table>
+</h3>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%"><font color="black" face="Arial" size="4"><b>&nbsp;&nbsp;
+    <a href="file:///home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Output/InputMatrix/HeLa-S3__genelist1/genetest_statistics.html">HeLa-S3 (genelist1)</a> &nbsp;&nbsp; |&nbsp;&nbsp; <a href="file:///home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Output/InputMatrix/HepG2__genelist1/genetest_statistics.html">HepG2 (genelist1)</a> &nbsp;&nbsp; |&nbsp;&nbsp; <a href="file:///home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Output/InputMatrix/K562__genelist1/genetest_statistics.html">K562 (genelist1)</a> &nbsp;&nbsp; |&nbsp;&nbsp; <a href="file:///home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Output/InputMatrix/H1-hESC__genelist1/genetest_statistics.html">H1-hESC (genelist1)</a>
+    </b></font></td>
+  </tr>
+</table>
+<p align="center"><font color="black" face="Arial" size="5">
+Results for <b>H1-hESC</b> region <b>Gene Test*</b> using genes from <b>genelist1</b>
+</font></p>
+<p align="center"><font color="black" face="Arial" size="3">
+* This gene test considered regions associated to the gene list given against regions not associated to the gene list
+</font></p>
+<p align="center">
+<table id="hor-zebra" class="tablesorter">
+  <thead><tr>
+    <th scope="col" width="300" align="center">FACTOR</th>
+    <th scope="col" width="200" align="center">MOTIF</th>
+    <th scope="col" width="100" align="center">P-VALUE</th>
+    <th scope="col" width="100" align="center">CORRECTED P-VALUE</th>
+    <th scope="col" width="50" align="center">A</th>
+    <th scope="col" width="50" align="center">B</th>
+    <th scope="col" width="50" align="center">C</th>
+    <th scope="col" width="50" align="center">D</th>
+    <th scope="col" width="100" align="center">FREQUENCY</th>
+    <th scope="col" width="100" align="center">BACKGROUND FREQUENCY</th>
+    <th scope="col" width="50" align="center">GO</th>
+  </tr></thead>
+  <tbody>
+    <tr class="odd">
+      <td align="center">MA0003.2.TFAP2A</td>
+      <td align="center"><img src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/logos/jaspar_vertebrates/MA0003.2.TFAP2A.png" width=200 ></td>
+      <td align="center">2.0679e-01</td>
+      <td align="center">7.0144e-01</td>
+      <td align="center">46</td>
+      <td align="center">8</td>
+      <td align="center">366</td>
+      <td align="center">95</td>
+      <td align="center">85.19%</td>
+      <td align="center">79.39%</td>
+      <td align="center"><a href="http://biit.cs.ut.ee/gprofiler/index.cgi?significant=1&sort_by_structure=1&ordered_query=0&organism=hsapiens&query=ASPHD2,MFNG,FAM211B,LIMK2,LARGE,HPS4,UBE2L3,PDXP,PANX2,BCR,PPM1F,CABIN1,TOB2,TRABD,TEF,SUSD2,TTLL12,SDF2L1,GGA1,GUCD1,MCAT,PATZ1,ACO2,TSPO,CYTH4,ELFN2,SELO,SNRPD3,TRIOBP,ZDHHC8P1,GGT1,SRRD,TUBGCP6,CES5AP1">View</a></td>
+    </tr>
+    <tr>
+      <td align="center">UP00000_1_Smad3_primary</td>
+      <td align="center"><img src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/logos/uniprobe_primary/UP00000_1_Smad3_primary.png" width=200 ></td>
+      <td align="center">3.5072e-01</td>
+      <td align="center">7.0144e-01</td>
+      <td align="center">22</td>
+      <td align="center">32</td>
+      <td align="center">171</td>
+      <td align="center">290</td>
+      <td align="center">40.74%</td>
+      <td align="center">37.09%</td>
+      <td align="center"><a href="http://biit.cs.ut.ee/gprofiler/index.cgi?significant=1&sort_by_structure=1&ordered_query=0&organism=hsapiens&query=DRG1,SELO,MFNG,FAM211B,LIMK2,TSPO,ZDHHC8P1,HPS4,GGT1,SUSD2,UBE2L3,PATZ1,TUBGCP6,SRRD,SDF2L1,ELFN2,PANX2,BCR,CES5AP1">View</a></td>
+    </tr>
+    <tr class="odd">
+      <td align="center">MA0002.2.RUNX1</td>
+      <td align="center"><img src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/logos/jaspar_vertebrates/MA0002.2.RUNX1.png" width=200 ></td>
+      <td align="center">7.6862e-01</td>
+      <td align="center">8.1138e-01</td>
+      <td align="center">24</td>
+      <td align="center">30</td>
+      <td align="center">224</td>
+      <td align="center">236</td>
+      <td align="center">44.44%</td>
+      <td align="center">48.7%</td>
+      <td align="center"><a href="http://biit.cs.ut.ee/gprofiler/index.cgi?significant=1&sort_by_structure=1&ordered_query=0&organism=hsapiens&query=ASPHD2,FAM211B,LIMK2,LARGE,PDXP,PANX2,BCR,DRG1,CABIN1,TOB2,TRABD,TEF,TTLL12,SDF2L1,GGT1,PATZ1,ELFN2,SELO,TRIOBP,ZDHHC8P1,TUBGCP6,CES5AP1">View</a></td>
+    </tr>
+    <tr>
+      <td align="center">UP00001_1_E2F2_primary</td>
+      <td align="center"><img src="/home/egg/Projects/RGT/Results/Usage/RGT_MotifAnalysis/Installation/rgtdata/logos/uniprobe_primary/UP00001_1_E2F2_primary.png" width=200 ></td>
+      <td align="center">8.1138e-01</td>
+      <td align="center">8.1138e-01</td>
+      <td align="center">18</td>
+      <td align="center">36</td>
+      <td align="center">177</td>
+      <td align="center">283</td>
+      <td align="center">33.33%</td>
+      <td align="center">38.48%</td>
+      <td align="center"><a href="http://biit.cs.ut.ee/gprofiler/index.cgi?significant=1&sort_by_structure=1&ordered_query=0&organism=hsapiens&query=ASPHD2,SELO,MFNG,FAM211B,CABIN1,TOB2,TRABD,TUBGCP6,TEF,LARGE,MIAT,GGT1,UBE2L3,TTLL12,PDXP,PATZ1,PANX2,CYTH4,ELFN2">View</a></td>
+    </tr>
+</tbody></table></p>
+<br><br>
+<p align="center"><font face="Arial" color="#000000" size="2">
+For more details please visit the <a href="http://www.regulatory-genomics.org/"> RGT Website </a>
+</font></p>
+<h3 style="background-color:white; border-top:10px solid black;"></h3>
+</body>
+</html>

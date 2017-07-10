@@ -1,0 +1,3 @@
+[console_scripts]
+myPackageSS2 = myPackage.tool1.mainTool1:main
+

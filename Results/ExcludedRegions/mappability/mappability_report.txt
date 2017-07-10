@@ -1,0 +1,11 @@
+
+# Allowing 2 matches
+hg19_map2_filter_50	19.3018%
+mm9_map2_filter_50	18.542%
+
+# Allowing 4 matches
+hg19_map4_filter_50	17.6554%
+mm9_map4_filter_50	17.2576%
+
+# CDP Peaks inside map2 regions
+33.9842%

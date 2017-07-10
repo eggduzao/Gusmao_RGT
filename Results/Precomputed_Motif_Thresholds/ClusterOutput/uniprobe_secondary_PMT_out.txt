@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc014>
+Subject: Job 19149813: <uniprobe_secondary_PMT> in cluster <rcc> Done
+
+Job <uniprobe_secondary_PMT> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc014>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/RGT/Results/Precomputed_Motif_Thresholds> was used as the working directory.
+Started at Mon Sep 29 14:37:57 2014
+Results reported on Mon Sep 29 15:56:02 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./pipeline.zsh /work/eg474423/reg-gen/data/motifs/uniprobe_secondary/ /work/eg474423/eg474423_Projects/trunk/RGT/Results/Precomputed_Motif_Thresholds/Results/uniprobe_secondary.fpr
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4651.25 sec.
+    Max Memory :                                 57 MB
+    Average Memory :                             51.01 MB
+    Total Requested Memory :                     8000.00 MB
+    Delta Memory :                               7943.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <uniprobe_secondary_PMT_err.txt> for stderr output of this job.
+

@@ -1,0 +1,14 @@
+INSTALL.zsh
+MANIFEST.in
+setup.py
+myPackage/__init__.py
+myPackage/basicModule1.py
+myPackage/basicModule2.py
+myPackage.egg-info/PKG-INFO
+myPackage.egg-info/SOURCES.txt
+myPackage.egg-info/dependency_links.txt
+myPackage.egg-info/entry_points.txt
+myPackage.egg-info/top_level.txt
+myPackage/tool1/__init__.py
+myPackage/tool1/auxTool1.py
+myPackage/tool1/mainTool1.py
