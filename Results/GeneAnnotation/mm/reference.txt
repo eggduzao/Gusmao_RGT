@@ -1,3 +1,0 @@
-http://www.informatics.jax.org/
-last database update: 02/25/2015
-MGI 5.21

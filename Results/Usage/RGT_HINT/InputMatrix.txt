@@ -1,7 +1,0 @@
-name	type	file	data	group
-HS1	regions	./Input/regions.bed	HS	FP1
-DNase	reads	./Input/DNase_chr22.bam	DNASE	FP1
-H3K4me1	reads	./Input/H3K4me1_chr22.bam	HISTONE	FP1
-H3K4me3	reads	./Input/H3K4me3_chr22.bam	HISTONE	FP1
-HS2	regions	./Input/regions.bed	HS	FP2
-DNase	reads	./Input/DNase_chr22.bam	DNASE	FP2

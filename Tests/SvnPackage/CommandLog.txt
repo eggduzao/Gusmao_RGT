@@ -1,6 +1,0 @@
-svn copy -m "" https://eduardogadeproject.googlecode.com/svn/trunk/ https://eduardogadeproject.googlecode.com/svn/branches/RB-1.1.0/
-svn rm -m "" https://eduardogadeproject.googlecode.com/svn/branches/RB-1.1.0/
-svn switch https://eduardogadeproject.googlecode.com/svn/branches/RB-1.1.0/
-svn switch https://eduardogadeproject.googlecode.com/svn/trunk/
-svn copy -m "" https://eduardogadeproject.googlecode.com/svn/branches/RB-1.1.0/ https://eduardogadeproject.googlecode.com/svn/tags/myPackage-1.1.0/
-svn checkout http://eduardogadeproject.googlecode.com/svn/tags/myPackage-1.1.0/ eduardogadeproject-user

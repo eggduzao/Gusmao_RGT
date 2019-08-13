@@ -1,2 +1,0 @@
-name	type	file
-cDC_PU1	regions	result_peaks.bed

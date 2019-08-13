@@ -1,9 +1,0 @@
-name	type	file	genegroup
-# Regions
-H1-hESC	regions	../../Input/regions_Test.bed	genelist1
-HeLaS3	regions	../../Input/regions_Test2.bed	genelist1
-HepG2	regions	../../Input/regions_Test3.bed	genelist2
-K562	regions	../../Input/regions_Test4.bed	genelist2
-# GeneLists
-genelist1	genes	../../Input/genesTest.txt	genelist1
-genelist2	genes	../../Input/genesTest2.txt	genelist2
